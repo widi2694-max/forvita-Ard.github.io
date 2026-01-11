@@ -80,7 +80,7 @@
           onReady: () => {
             const btn = document.getElementById('musicButton');
             btn.disabled = false;
-            btn.innerText = "Mainkan Musik 🎵";
+            btn.innerText = "Play Music 🎵";
           },
           onStateChange: (event) => {
             if (event.data === YT.PlayerState.ENDED) {
